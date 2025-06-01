@@ -44,6 +44,10 @@ backend-python
 │   │   ├── abstract_repo1.py
 │   │   ├── abstract_repo2.py
 │   │   └── __init__.py
+│   ├── schemas                              # Pydantic-cхемы 
+│   │   ├── abstract_schema1.py
+│   │   ├── abstract_schema2.py
+│   │   └── __init__.py
 │   └── services                            # Бизнес-логика
 │       ├── abstract_service1.py
 │       ├── abstract_service2.py
@@ -70,6 +74,7 @@ backend-python
 | `models`     | Структуры данных, SQLAlchemy       |
 | `core`       | Конфигурация приложения            |
 | `cmd`        | Точка входа для запуска            |
+| `schemas`    | Схемы валидации данных (Pydantic)  |
 
 Подробнее про слоистую архитектуру: [здесь](https://testengineer.ru/layered-architecture/)
 
